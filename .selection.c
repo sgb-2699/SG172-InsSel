@@ -27,7 +27,7 @@ int main() {
     start = clock();
     insertionSort(arr, 6);
     stop = clock();
-    printf("Time taken to complete insertion sort is %lf seconds.",(double)((stop-start)/CLOCKS_PER_SEC));
+    printf("Time taken to complete selection sort is %lf seconds.",(double)((stop-start)/CLOCKS_PER_SEC));
 
     return 0;
 }
